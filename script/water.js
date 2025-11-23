@@ -1,4 +1,3 @@
-// Ілля Лазарев
 const bg = document.querySelector('.water-bg');
 
 document.addEventListener('mousemove', e => {
