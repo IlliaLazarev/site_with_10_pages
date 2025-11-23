@@ -175,7 +175,6 @@ footer {
   filter: brightness(1.1) saturate(1.2);
 }
 
-/* === Волонтерська форма === */
 .volunteer-card {
   max-width: 400px;
   margin: 60px auto;
@@ -233,22 +232,6 @@ footer {
   background: linear-gradient(135deg, #4895ef, #4361ee);
 }
 
-/* Кнопка повернення */
-.back-btn {
-  display: inline-block;
-  margin-top: 25px;
-  color: #4895ef;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.2s ease;
-}
-
-.back-btn:hover {
-  color: #4361ee;
-  text-decoration: underline;
-}
-
-/* === ПОКРАЩЕНИЙ ДИЗАЙН ПОШУКУ === */
 .filters {
   display: flex;
   align-items: center;
@@ -283,7 +266,6 @@ footer {
   box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.3);
 }
 
-/* === КНОПКА “УСИНОВИТИ” === */
 button, .adopt-btn {
   background: linear-gradient(135deg, #ffb347, #ffcc33);
   color: #4a3000;
@@ -307,7 +289,6 @@ button:active, .adopt-btn:active {
   box-shadow: 0 2px 5px rgba(255, 170, 0, 0.2);
 }
 
-/* === Команда === */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -331,7 +312,7 @@ button:active, .adopt-btn:active {
 
 .team-grid .card.person img {
   width: 50%;
-  max-width: 160px;       /* обмежуємо фото */
+  max-width: 160px;
   height: auto;
   border-radius: 12px;
   object-fit: cover;
@@ -368,7 +349,6 @@ button:active, .adopt-btn:active {
   to { text-shadow: 0 0 15px rgba(255, 120, 30, 0.8); }
 }
 
-/* === Donate Page Styles === */
 .donate-layout {
   display: flex;
   justify-content: space-between;
@@ -458,7 +438,6 @@ button:active, .adopt-btn:active {
   text-decoration: underline;
 }
 
-/* === Volunteer Page Styles === */
 .volunteer-layout {
   display: flex;
   justify-content: space-between;
