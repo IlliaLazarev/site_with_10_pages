@@ -411,33 +411,6 @@ button:active, .adopt-btn:active {
   border: 1px solid #ccc;
 }
 
-.submit-btn {
-  background: linear-gradient(90deg, #2196f3, #42a5f5);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
-  width: 100%;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.submit-btn:hover {
-  background: linear-gradient(90deg, #1976d2, #2196f3);
-}
-
-.back-btn {
-  display: block;
-  margin-top: 15px;
-  text-align: center;
-  color: #1565c0;
-  text-decoration: none;
-}
-
-.back-btn:hover {
-  text-decoration: underline;
-}
-
 .volunteer-layout {
   display: flex;
   justify-content: space-between;
@@ -513,18 +486,6 @@ button:active, .adopt-btn:active {
 
 .submit-btn:hover {
   background: linear-gradient(90deg, #1976d2, #2196f3);
-}
-
-.back-btn {
-  display: block;
-  margin-top: 15px;
-  text-align: center;
-  color: #1565c0;
-  text-decoration: none;
-}
-
-.back-btn:hover {
-  text-decoration: underline;
 }
 
 .adopt-popup {
@@ -612,7 +573,7 @@ button:active, .adopt-btn:active {
 
 @media (max-width: 600px) {
   nav {
-    background-color: lightblue !important;
+    background-color: #ffb74d !important;
     color: yellow !important;
   }
 }

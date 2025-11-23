@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function renderDogCard(d) {
-  const imgSrc = d.image || 'images/default-dog.png';
+  const imgSrc = d.image;
   const adopted = d.adopted
     ? '<div class="adopted">🐾 Усиновлено</div>'
     : `<button class="adopt-btn" data-id="${d.id}">Усиновити</button>`;
