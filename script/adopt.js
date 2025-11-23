@@ -23,26 +23,25 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   form.addEventListener("submit", async e => {
     e.preventDefault();
+    
     const adopter = {
       name: form.querySelector("#name").value,
       phone: form.querySelector("#phone").value,
       email: form.querySelector("#email").value
     };
-
-    const res = await fetch("/api/adopt", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ dogId: id, adopter })
-    }).then(r => r.json());
-
+  
+    await new Promise(res => setTimeout(res, 1000));
+  
+    const res = { success: true };
+  
     if (res.success) {
       form.innerHTML = `
         <div class="success">
           ✅ Дякуємо, ${adopter.name}! Ви усиновили ${dog.name}.
         </div>`;
     } else {
-      alert(res.error || "Помилка при усиновленні");
+      alert("Помилка при усиновленні");
     }
-  });
+  });  
 });
   
